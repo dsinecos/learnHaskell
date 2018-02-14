@@ -1,0 +1,1 @@
+boomBang ls = [if x > 10 then "BANG!" else "BOOM!" | x <- ls, odd x]
